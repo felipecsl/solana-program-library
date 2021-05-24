@@ -10,9 +10,9 @@ edition = "2018"
 [dev-dependencies]
 rand = { version = "0.7.0"}
 spl-token = { path = "../program", features = [ "no-entrypoint" ] }
-solana-runtime = "1.6.7"
-solana-sdk = "1.6.7"
-solana-bpf-loader-program = "1.6.7"
+solana-runtime = { git = "https://github.com/solana-labs/solana" }
+solana-sdk = { git = "https://github.com/solana-labs/solana" }
+solana-bpf-loader-program = { git = "https://github.com/solana-labs/solana" }
 solana_rbpf = "0.2"
 
 [workspace]

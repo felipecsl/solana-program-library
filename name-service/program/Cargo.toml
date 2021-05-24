@@ -14,15 +14,15 @@ no-entrypoint = []
 test-bpf = []
 
 [dependencies]
-solana-program = "1.6.7"
+solana-program = { git = "https://github.com/solana-labs/solana" }
 num-traits = "0.2"
 borsh = "0.8.1"
 num-derive = "0.3.3"
 thiserror = "1.0.24"
 
 [dev-dependencies]
-solana-program-test = "1.6.7"
-solana-sdk = "1.6.7"
+solana-program-test = { git = "https://github.com/solana-labs/solana" }
+solana-sdk = { git = "https://github.com/solana-labs/solana" }
 
 
 [lib]
